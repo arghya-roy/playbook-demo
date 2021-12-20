@@ -5,4 +5,4 @@
     connection: ssh
     tasks:
       - name: copy from souce to destination
-        copy: src=suvo.txt dest=roy/suvo.txt # it will copy to /home/ansible/roy/suvo.txt
+        copy: src=suvo2.txt dest=roy/suvo2.txt # it will copy to /home/ansible/roy/suvo.txt
