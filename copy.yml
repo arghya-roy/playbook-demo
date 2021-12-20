@@ -1,7 +1,7 @@
 ---
   - hosts: demo
     become: yes
-    user: ansible
+    user: ubuntu
     connection: ssh
     tasks:
       - name: copy from souce to destination
